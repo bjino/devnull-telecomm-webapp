@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="Devnull" default="phpunit" basedir=".">
+    <target name="phpunit">
+            <exec executable="phpunit" failonerror="false">
+                <arg value="--configuration"/>
+                <arg value="${basedir}/phpunit.xml"/>
+            </exec>
+    </target>
+</project>
